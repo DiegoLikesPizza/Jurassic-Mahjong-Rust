@@ -1,0 +1,12 @@
+[package]
+name = "Jurassic-Mahjong-Rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+raylib = "5.5.1"
+rand = "0.8"
+
+[profile.release]
+lto = true
+opt-level = 3
